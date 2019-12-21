@@ -13,7 +13,7 @@ ReactDOM.render(
         <Route
         exact path='/' component={App} />
         <Route
-        exact path='/traininglist' component={Traininglist} />
+        exact path='/trainings' component={Traininglist} />
       </div>
       </Router>,
       
