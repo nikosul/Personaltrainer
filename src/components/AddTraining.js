@@ -10,7 +10,7 @@ export default function AddTraining(props) {
 
   const [open, setOpen] = React.useState(false);
   const [training, setTraining] = React.useState({
-    activity:'', date:'', duration:''
+    activity:'', date:'', duration:'', customer:''
   })
 
   const handleClickOpen = () => {
